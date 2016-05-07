@@ -1,0 +1,6 @@
+D:\DataArt Proj\WebExamProj\bin\WebExamProj.dll.config
+D:\DataArt Proj\WebExamProj\bin\WebExamProj.dll
+D:\DataArt Proj\WebExamProj\bin\WebExamProj.pdb
+D:\DataArt Proj\WebExamProj\obj\Debug\WebExamProj.dll
+D:\DataArt Proj\WebExamProj\obj\Debug\WebExamProj.pdb
+D:\DataArt Proj\WebExamProj\obj\Debug\WebExamination.csprojResolveAssemblyReference.cache
