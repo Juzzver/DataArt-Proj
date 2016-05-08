@@ -51,10 +51,10 @@ namespace WebExamProj
 
         protected void LoginButton_Click(object sender, EventArgs e)
         {
-            if (LoginBox.Text != "admin" && PasswordBox.Text != "password")
-                error_auth = "<br /><span style ='background: red'>Your account or password is invalid!</span>";
-            else
-                error_auth = "<br /><span style ='background: green'>Your successfully login!</span>";
+            //if (LoginBox.Text != "admin" && PasswordBox.Text != "password")
+            //    error_auth = "<br /><span style ='background: red'>Your account or password is invalid!</span>";
+            //else
+            //    error_auth = "<br /><span style ='background: green'>Your successfully login!</span>";
                 //  Response.Write("Your account or password is invalid");
                
                 

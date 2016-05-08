@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataArtTestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <Property Name="enterLevel" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="numberPhone" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="login" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="DataArtTestEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="Self.Users" />
+  </EntityContainer>
+</Schema>

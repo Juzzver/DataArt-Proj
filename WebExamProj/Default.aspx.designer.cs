@@ -40,13 +40,13 @@ namespace WebExamProj {
         protected global::System.Web.UI.WebControls.Label Output;
         
         /// <summary>
-        /// Label1 control.
+        /// LabelLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label LabelLogin;
         
         /// <summary>
         /// LoginBox control.
@@ -58,13 +58,13 @@ namespace WebExamProj {
         protected global::System.Web.UI.WebControls.TextBox LoginBox;
         
         /// <summary>
-        /// Label2 control.
+        /// LabelPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label LabelPassword;
         
         /// <summary>
         /// PasswordBox control.
